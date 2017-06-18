@@ -2,6 +2,8 @@
 A very simple load library injector
 I used this injector myself from early 2015 right up until December of last year - never VAC banned.
 
+### Releases can be found below the project discription - to the left of the `clone or download` button and up
+
 Not too dissimilar from GameOwner - this injector is simple:
  - No gui
  - No manual mapping
