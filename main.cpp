@@ -14,7 +14,7 @@ public:
 		return Inject(processID, dllName);
 	}
 
-	static bool Inject(DWORD processID, char *dllName)
+	static bool Inject(DWORD processID, char *relativeDllName)
 	{
 
 		if (processID == 0)
@@ -32,7 +32,7 @@ public:
 		char DllName[MAX_PATH];
 
 		// get the full path to the dll - this is important as the target processes working directory is probably different !
-		GetFullPathNameA(dllName, MAX_PATH, DllName, NULL);
+		GetFullPathNameA(relativeDllName, MAX_PATH, DllName, NULL);
 
 		printf("%s\n", DllName);
 
