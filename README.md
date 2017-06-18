@@ -1,4 +1,7 @@
 # F1ssi0N 2015 LoadLibrary injector
+
+[![Build status](https://ci.appveyor.com/api/projects/status/4dhhgti74ip7y9ol?svg=true)](https://ci.appveyor.com/project/josh33901/2015-load-library-injector)
+
 A very simple load library injector
 I used this injector myself from early 2015 right up until December of last year - never VAC banned.
 
