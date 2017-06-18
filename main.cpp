@@ -8,7 +8,7 @@ class Injector
 public:
 	static bool Inject(char* procName, char* dllName)
 	{
-    // Get the process id from the process name
+		// Get the process id from the process name
 		DWORD processID = GetTargetThreadIDFromProcName(procName);
 
 		return Inject(processID, dllName);
