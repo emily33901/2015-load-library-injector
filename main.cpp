@@ -97,12 +97,16 @@ int main(int argc, char **argv)
 		printf("injecting!\n");
 
 		if (Injector::Inject(argv[1], argv[2]))
+		{
 			printf("injection successful!\n");
+		}
 		else
 		{
 			printf("injection failed\n");
 			system("pause");
 		}
+		
+		return 0;
 	}
 
 	printf("LoadLibrary Injector - F1ssi0N 2015\n"
