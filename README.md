@@ -7,6 +7,7 @@ Not too dissimilar from GameOwner - this injector is simple:
  - No manual mapping
  - No process title (making the process title the filename)
  
+If you are building from scratch make sure to change the configuration to Release|x86
  
 You can either use the injector in `Interactive mode` where you can enter the dll name and process name or create a batch file to do it for you - help is displayed when you run the program with no arguments.
 
